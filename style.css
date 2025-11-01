@@ -1011,7 +1011,6 @@ footer{
     
     .text-presentation {
         max-width: 300px;
-        margin: 1px;
     }
     .text-presentation h1{
         font-size: 2rem;
@@ -1031,7 +1030,8 @@ footer{
         font-size: 0.5em;
     }
     .presentation-foto img{
-        width: 150px;
+        width: 100%;
+        height: auto;
     }
     /*Fim apretation*/
 
@@ -1040,6 +1040,9 @@ footer{
     .text-presentation{
         max-width: 200px;
         margin: 10px;
+    }
+    .text-sobre p{
+        width: 200px;
     }
     .icon-container{
         margin: 0px 20px;
@@ -1068,10 +1071,11 @@ footer{
 
 /*Conhecendo*/
 .sobre img{
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 .sobre .raio{
-    width: 300px;
+    width: 200px;
     height: 100%;
 }
 .text-sobre p{
